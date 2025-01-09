@@ -1,11 +1,13 @@
 import React from "react";
+import logo from "../assets/logo.svg";
+import InstagramIcon from "../assets/icon-instagram.png";
 
 const Header: React.FC = () => {
   return (
     <header id="header">
       <h1 className="site-title">
         <a href="index.html">
-          <img src="img/logo.svg" alt="My Work" />
+          <img src={logo} alt="My Work" />
         </a>
       </h1>
       <nav>
@@ -16,7 +18,7 @@ const Header: React.FC = () => {
           <li><a href="#contact">Contact</a></li>
           <li>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-              <img className="icon" src="./img/icon-instagram.png" alt="Instagram" />
+              <img className="icon" src={InstagramIcon} alt="Instagram" />
             </a>
           </li>
         </ul>

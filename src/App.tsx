@@ -7,6 +7,7 @@ import News from "./components/News";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./styles.css";
+import "./reset.css";
 
 const App: React.FC = () => {
   return (
